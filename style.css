@@ -1,0 +1,41 @@
+.agediv{
+    align-items: center;
+    margin: 5px;
+    border: 2px salmon;
+    padding : 5px;
+    background-color: aquamarine;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+}
+.ageh{
+   text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(57, 81, 17);
+}
+.agelabel{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+}
+.ageinput{
+    background-color:ivory
+}
+.agebutton{
+    font-weight: bolder;
+    background-color: rgb(234, 53, 53);
+}
+.agediv2{
+    text-align: center;
+}
+.agepara2{
+    margin: 5px;
+    padding: 2px;
+    border: 2px;
+    height: vh;
+    width: vw;
+    background-color :aquamarine;
+    color:darkred;
+    text-align: justify;
+}
