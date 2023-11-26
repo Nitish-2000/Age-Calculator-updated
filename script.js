@@ -18,7 +18,7 @@ function calculateage() {
             else if (today.getDate() < Dob.getDate()) {
                 var dat = 30 + date;
                 var mnth1 = month-1;
-                return document.getElementById("result").innerHTML = "Your Age is " + age + " Years " + month1 + " months and " + dat + " days";
+                return document.getElementById("result").innerHTML = "Your Age is " + age + " Years " + mnth1 + " months and " + dat + " days";
             }
         }
         else if(today.getMonth() == Dob.getMonth()){
@@ -57,6 +57,11 @@ function calculateage() {
             if (today.getDate() >= Dob.getDate()) {
                 return document.getElementById("result").innerHTML = "Your Age is " + age + " Years " + month + " months and " + date + " days";
             } 
+            else if(today.getDate() < Dob.getDate()){
+                var mnth4 = month-1;
+                var dat5=30+date;
+                return document.getElementById("result").innerHTML = "Your Age is " + age + " Years " + mnth4 + " months and " + dat5 + " days";
+            }
         }
         else if (today.getMonth() == Dob.getMonth()) {
             if (today.getDate() >= Dob.getDate()) {
